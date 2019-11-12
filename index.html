@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>小天气</title>
+		<link rel="stylesheet" href="./css/reset.css" />
+		<link rel="stylesheet" href="./css/index.css" />
+	</head>
+	<body>
+
+		<div class="box">
+			<div class="nav">
+				<nav class="clearqc">
+					<span class="fl location-city">广州</span>
+					<div class="fr search-box clearqc">
+						<input type="" name="" id="inp" placeholder="输入城市，如：广州" /><img id="sousuo" src="img/search.png">
+					</div>
+				</nav>
+			</div>
+			<div class="content">
+				<div class="weather-box">
+					<div class="clearqc">
+						<span class="fl date"></span>
+						<span class="fl week"></span>
+					</div>
+					<div class="tem-box clearqc">
+						<span class=" tem"></span>
+						<span class="wea"></span>
+						<span class="air_level"></span>
+					</div>
+					<div class="weather-wind clearqc">
+						<span class="fl wind win"></span>
+						<span class="fl wind win_speed"></span>
+						<span class="fl win_meter"></span>
+					</div>
+				</div>
+				<div class="hours-box">
+					<h4>24小时天气</h4>
+					<div class="hours-weather">
+						<ul id="hoursWeather" class="clearqc">
+							<!-- <li>
+								<p>08时</p>
+								<p></p>
+								<p>22℃</p>
+								<p>无持续风向</p>
+							</li>
+							<li>
+								<p>08时</p>
+								<p></p>
+								<p>22℃</p>
+								<p>无持续风向</p>
+							</li>
+							<li>
+								<p>08时</p>
+								<p></p>
+								<p>22℃</p>
+								<p>无持续风向</p>
+							</li> -->
+						</ul>
+					</div>
+				</div>
+				<div class="future-weather">
+					<div class="future-weather-title hours-box-title">未来6天天气</div>
+					<div class="future-weather-box">
+						<ul id="futureWeather">
+							<!-- <li>
+								<p>24日</p>
+								<p class="future-weather-icon">多云</p>
+								<p>30℃-35℃</p>
+								<p>东风</p>
+							</li> -->
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<script src="./js/rem.js"></script>
+		<script src="./js/jquery-3.4.1.js"></script>
+		<script src="./js/index.js"></script>
+	</body>
+</html>
